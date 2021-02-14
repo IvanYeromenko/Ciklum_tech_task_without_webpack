@@ -52,15 +52,14 @@ td {
 }
 
  #adding-event{
-     position: relative;
+    position: relative;
      
- }
-
+}
 
 .adding-event-table td {
-     text-align: left;
-     border: 0px;
-     padding-bottom: 1.5em;
+    text-align: left;
+    border: 0px;
+    padding-bottom: 1.5em;
 }
 
 input, .select-participants, .select-days, .select-time {
@@ -68,10 +67,10 @@ input, .select-participants, .select-days, .select-time {
 } 
 
  .buttons-container {
-     display: flex;
-     flex-direction: row;
-     justify-content: flex-end;
- }
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 
 .buttons-container form {
     padding-right: 2em;
