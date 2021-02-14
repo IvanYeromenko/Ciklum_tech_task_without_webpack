@@ -12,7 +12,6 @@ h3 {
 
 .button-select {
     display: flex;
-    /* flex-direction:row; */
     justify-content: space-between;
     padding-right: 10%;
     align-items: center;
@@ -53,11 +52,6 @@ td {
 #create-event button{
     float: right;    
 }
-
-
-/* 
- Style for file create-event.html
- */
 
  #adding-event{
      position: relative;
