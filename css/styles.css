@@ -1,0 +1,89 @@
+table {
+    width: 80%;
+    text-align: center;
+    border-spacing: 0;
+    margin: auto;
+}
+
+h3 {
+    padding-left: 10%;
+}
+
+
+.button-select {
+    display: flex;
+    /* flex-direction:row; */
+    justify-content: space-between;
+    padding-right: 10%;
+    align-items: center;
+}
+
+.button-select.choose-name {
+    padding-left: 20%;
+}
+
+h3 {
+    padding-left: 10%;
+}
+
+button {
+    width: 8em;
+    height: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgba(128, 128, 128, 0.438);
+}
+
+th {
+    border: 1px solid gray;
+    background-color: rgba(128, 128, 128, 0.438);
+}
+
+td { 
+    border: 1px solid gray;
+}
+
+
+
+#create-event button{
+    float: right;    
+}
+
+
+/* 
+ Style for file create-event.html
+ */
+
+ #adding-event{
+     position: relative;
+     
+ }
+
+
+.adding-event-table td {
+     text-align: left;
+     border: 0px;
+     padding-bottom: 1.5em;
+}
+
+input, .select-participants, .select-days, .select-time {
+    width: 50%;
+} 
+
+ .buttons-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+ }
+
+.buttons-container form {
+    padding-right: 2em;
+}
+.green {
+    background-color: #D2F5B4;
+}

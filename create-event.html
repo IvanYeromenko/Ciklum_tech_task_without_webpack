@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <div class="container-form">
+        <form method="GET">
+            <table class="adding-event-table">
+                <tr>
+                    <td>Name of this event: </td>
+                    <td>
+                        <input type="text" class="event-name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Participants:</td>
+                    <td>
+                        <select class="select-participants">
+                            <option value="maria">Maria</option>
+                            <option value="bob">Bob</option>
+                            <option value="alex">Alex</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Day: </td>
+                    <td>
+                        <select class="select-days">
+                            <option value="mon">Monday</option>
+                            <option value="tue">Tuesday</option>
+                            <option value="wed">Wednesday</option>
+                            <option value="thu">Thursday</option>
+                            <option value="fri">Friday</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Time: </td>
+                    <td>
+                        <select class="select-time">
+                            <option value="10">10:00</option>
+                            <option value="11">11:00</option>
+                            <option value="12">12:00</option>
+                            <option value="13">13:00</option>
+                            <option value="14">14:00</option>
+                            <option value="15">15:00</option>
+                            <option value="16">16:00</option>
+                            <option value="17">17:00</option>
+                            <option value="18">18:00</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="buttons-container">
+        <form action="./index.html">
+            <button id="cancel">Cancel</button>
+        </form>
+
+        <button id="create" onclick="myFunction()">Create</button>
+    </div>
+    <script type="text/javascript" src="./js/schedule.js"></script>
+</body>
+
+</html>
